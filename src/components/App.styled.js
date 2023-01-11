@@ -5,6 +5,3 @@ export const Conteiner = styled.div`
   margin: 0 auto;
   text-align: center;
 `;
-export const Message = styled.p`
-  font-size: 20px;
-`;

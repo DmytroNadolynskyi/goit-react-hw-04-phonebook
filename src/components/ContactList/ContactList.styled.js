@@ -7,8 +7,8 @@ export const List = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border-radius: 10px;
-  background: gold;
+  
+  
 
 `;
 
@@ -23,8 +23,11 @@ export const Button = styled.button`
   background: silver;
 `;
 export const Item = styled.li`
-  padding: 0 10px;
+  padding: 10px 10px;
   display: flex;
   gap: 20px;
   align-items: center;
+  background: gold;
+  border-radius: 10px;
+  justify-content: space-between;
 `;
